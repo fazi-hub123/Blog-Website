@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+*{
+  font-family: cursive;
+}
+header {
+  background-color: #5c9dad;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  height: 110px;
+}
+.login-h1{
+  padding-top: 0px;
+  font-size: 40px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 20px;
+}
+
+main {
+  padding: 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 1rem;
+  text-align: center;
+
+}
+.login-label{
+  font-size: 20px;
+}
+.link{
+  text-decoration: none;
+  color: #fff;
+  margin-top: 70px;
+  color: #000;
+}
+input, textarea {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #497e8b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  border-radius: 8px;
+  margin-top: 25px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#blog-list, #user-blogs {
+  margin-top: 2rem;
+}
+
+.blog-post {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+.main-bg{
+  background-color: #a0d1dd;
+  margin-top: 80px;
+  width: 400px;
+  height: 300px;
+}
+.login-btn{
+  font-size: 17px;
+
+}
